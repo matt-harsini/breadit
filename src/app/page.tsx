@@ -1,6 +1,6 @@
 import {
   Features,
-  Header,
+  Hero,
   Blogs,
   Footer,
   Stats,
@@ -10,7 +10,7 @@ import {
 export default function Home() {
   return (
     <>
-      <Header />
+      <Hero />
       <Features />
       <Stats />
       <Blogs />

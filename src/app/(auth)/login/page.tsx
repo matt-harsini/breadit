@@ -13,6 +13,9 @@
   }
   ```
 */
+
+import { UserAuthForm } from "@/components/Auth";
+
 export default function Login() {
   return (
     <>
@@ -95,6 +98,8 @@ export default function Login() {
               </button>
             </div>
           </form>
+
+          <UserAuthForm />
 
           <p className="mt-10 text-center text-sm text-gray-400">
             Not a member?{" "}

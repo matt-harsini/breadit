@@ -17,7 +17,6 @@ const navigation = {
     { name: "Blog", href: "#" },
     { name: "Jobs", href: "#" },
     { name: "Press", href: "#" },
-    { name: "Partners", href: "#" },
   ],
   legal: [
     { name: "Claim", href: "#" },
@@ -89,7 +88,7 @@ const navigation = {
   ],
 };
 
-export default function Example() {
+export default function Footer() {
   return (
     <footer className="bg-gray-900" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
