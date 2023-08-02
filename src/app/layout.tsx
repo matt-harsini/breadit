@@ -1,4 +1,4 @@
-import { Navbar } from "@/components/ui";
+import { Navbar, Toaster } from "@/components/ui";
 import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import { Inter } from "next/font/google";
@@ -25,6 +25,7 @@ export default function RootLayout({
           <Navbar />
         </header>
         {children}
+        <Toaster />
       </body>
     </html>
   );
